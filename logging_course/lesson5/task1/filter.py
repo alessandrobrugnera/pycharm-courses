@@ -15,5 +15,5 @@ if __name__ == '__main__':
 
     logger3 = logging.getLogger('B')
     logger3.addFilter(log_filter)
-    logger3.debug('This is NOT written to log output, because only names start with "B" are allowed by filter')
+    logger3.debug('This is NOT written to log output, because only names start with "A" are allowed by filter')
 
